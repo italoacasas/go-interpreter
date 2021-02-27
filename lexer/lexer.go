@@ -22,7 +22,6 @@ func New(input  string) *Lexer {
 // readChar makes sure the Lexer structure keeps
 // a valid state
 func (l *Lexer) readChar() {
-	// If
 	if l.readPosition >= len(l.input) {
 		l.ch = 0
 	} else {
